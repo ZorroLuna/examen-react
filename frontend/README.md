@@ -22,7 +22,7 @@ npm (viene incluido con Node).
 📦 Instalación y Puesta en Marcha
 1. Clonar el repositorio
 Bash
-git clone <url-de-tu-repositorio>
+git clone https://github.com/ZorroLuna/examen-react.git
 cd "EXAMEN REACT"
 2. Configurar el Backend (Servidor)
 Desde la raíz del proyecto:
