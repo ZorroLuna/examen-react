@@ -1,0 +1,128 @@
+.gapsi-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-save {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.main-header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  height: 50px; /* Ajusta según el tamaño de tu logo */
+  width: auto;
+}
+
+.main-header h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.welcome-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #007bff;
+  margin-bottom: 15px;
+}
+.gapsi-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.gapsi-table th, .gapsi-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.gapsi-table th {
+  background-color: #f4f4f4;
+}
+
+.btn-add { background-color: #28a745; color: white; padding: 10px; border: none; cursor: pointer; }
+.btn-del { background-color: #dc3545; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px; }
+
+.pagination-controls {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* Estructura General */
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-welcome {
+  margin-bottom: 40px;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 40px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 0.9rem;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+}
+
+/* Animación suave para cuando cargan los datos */
+.App {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.btn-continue { background-color: #007bff; color: white; padding: 15px 30px; border-radius: 5px; cursor: pointer; border: none; font-size: 1.1rem; }
+.btn-cancel { background-color: #6c757d; color: white; margin-left: 10px; padding: 10px; border: none; cursor: pointer; }
+.form-actions { margin-top: 20px; }
